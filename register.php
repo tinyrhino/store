@@ -1,5 +1,5 @@
 <?php 
-  include 'php/header.php';
+  include 'includes/header.php';
 ?>
 
  
@@ -70,4 +70,4 @@
      	
 
      </div><!-- ./container -->
-<? include 'php/footer.php'; ?>
+<? include 'includes/footer.php'; ?>

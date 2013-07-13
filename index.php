@@ -1,5 +1,5 @@
 <?php 
-  include 'php/header.php';
+  include 'includes/header.php';
 ?>
   
   <div class="container border" style="background-color: white; margin-bottom: 20px; ">
@@ -63,4 +63,4 @@
       </div><!-- ./container -->
      
 
-<? include 'php/footer.php'; ?>
+<? include 'includes/footer.php'; ?>

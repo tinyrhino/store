@@ -1,0 +1,2 @@
+[13-Jul-2013 04:39:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/header.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home3/willker1/public_html/dev_tinyrhino/store/cart.php on line 2
+[13-Jul-2013 04:39:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/footer.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home3/willker1/public_html/dev_tinyrhino/store/cart.php on line 139

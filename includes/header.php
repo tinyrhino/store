@@ -6,6 +6,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="nicEdit/nicEdit.js"></script>
+    <script src="nicEdit/textEditor.js"></script>
     <style type="text/css">
       #myCarousel img {width: auto; width: 100%;}
       .thumbnail {margin-top: 20px; background-color: white; padding: 20px;}
@@ -32,6 +35,15 @@
       }
       #product-thumbnail img{ border: 1px solid #bbb;}
       a:hover {cursor: pointer;}
+	  
+	  .nicEdit-panelContain{
+
+	/*width: 700px  !important;*/
+	display: none;
+	z-index:9999;
+
+	
+} 
     </style>
   </head>
 
@@ -116,7 +128,7 @@
             <div class="navbar">
               <div class="navbar-inner">
                   <ul class="nav" style="margin-left: -10px; margin-right: -10px;">
-                    <li><a href="page.php">About</a></li>
+                    <li><a href="page.php?page=about">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>
 
